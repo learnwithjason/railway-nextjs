@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -14,7 +14,25 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>This App Has Public Analytics</h1>
 
-        <p className={styles.description}>You can view them at TODO</p>
+        <nav style={{ marginTop: '2rem' }}>
+          <Link href="/">
+            <a style={{ color: 'blue', textDecoration: 'underline' }}>Home</a>
+          </Link>{' '}
+          <Link href="/about">
+            <a style={{ color: 'blue', textDecoration: 'underline' }}>About</a>
+          </Link>
+        </nav>
+
+        <p className={styles.description}>
+          You can view them at{' '}
+          <a
+            style={{ color: 'blue', textDecoration: 'underline' }}
+            href="https://umami-production-b1b7.up.railway.app/share/G9zh9XFb/Next.js%20Site"
+          >
+            this link
+          </a>
+          .
+        </p>
       </main>
     </div>
   );

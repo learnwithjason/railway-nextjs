@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -13,6 +13,15 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>About This Site</h1>
+
+        <nav style={{ marginTop: '2rem' }}>
+          <Link href="/">
+            <a style={{ color: 'blue', textDecoration: 'underline' }}>Home</a>
+          </Link>{' '}
+          <Link href="/about">
+            <a style={{ color: 'blue', textDecoration: 'underline' }}>About</a>
+          </Link>
+        </nav>
 
         <p className={styles.description}>
           This site is an example of using Umami to manage self-hosted
