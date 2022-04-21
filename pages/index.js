@@ -28,6 +28,7 @@ export default function Home() {
           <a
             style={{ color: 'blue', textDecoration: 'underline' }}
             href="https://umami-production-b1b7.up.railway.app/share/G9zh9XFb/Next.js%20Site"
+            className="umami--click--public-analytics"
           >
             this link
           </a>
