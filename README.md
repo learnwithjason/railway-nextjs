@@ -1,3 +1,40 @@
+<p align="center">
+  <a href="https://www.learnwithjason.dev">
+    <img src="https://res.cloudinary.com/jlengstorf/image/upload/q_auto,f_auto,w_240/v1579281727/lwj/learnwithjason.png" alt="Learn With Jason" width="120" />
+  </a>
+</p>
+<h1 align="center">
+  Deploy a Site With Self-Hosted Analytics (with Faraz Patankar)
+</h1>
+<h3 align="center">
+  This app was built live on <em>Learn With Jason</em> and it was super fun and I’m sad you weren’t there.
+</h3>
+<p align="center">
+  But don’t worry! You can still: 
+  <a href="https://www.learnwithjason.dev/deploy-a-site-with-self-hosted-analytics"><strong>watch the video</strong></a> · 
+  <a href="https://railway-nextjs-production.up.railway.app/"><strong>see the demo</strong></a> · 
+  <a href="https://railway.app/new/template/nzjMP9?referralCode=0RgVFH"><strong>deploy this project</strong></a> · 
+  <a href="https://jason.af/lwj/schedule"><strong>see upcoming episodes</strong></a>
+</p>
+
+&nbsp;
+
+Add self-hosted analytics to a Next.js site using Umami. Faraz Patankar will teach us how to build, instrument, and deploy an app to Railway.
+
+&nbsp;
+
+## More Information
+
+- [Watch this app get built live + see links and additional resources][episode]
+- [Follow _Learn With Jason_ on Twitch][twitch] to watch future episodes live
+- [Add the _Learn With Jason_ schedule to your Google Calendar][cal]
+
+&nbsp;
+
+[episode]: https://www.learnwithjason.dev/deploy-a-site-with-self-hosted-analytics
+[twitch]: https://jason.af/twitch
+[cal]: https://jason.af/lwj/cal
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -26,9 +63,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
